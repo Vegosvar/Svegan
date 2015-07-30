@@ -1,0 +1,104 @@
+body {
+  background: #fff no-repeat;
+  background-position: bottom bottom;
+  background-size: cover;
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: 400;
+}
+h2 {
+  font-size: 26px;
+}
+p {
+  margin-bottom: 15px;
+}
+img {
+  max-width: 100%;
+}
+.preamble {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.btn {
+  background: #fff;
+  border: none;
+  text-shadow: none;
+  color: #2d221c;
+  border-radius: 50px;
+  border: 1px solid #2d221c;
+  box-shadow: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  border-radius: 0;
+  background: rgba(0,0,0,0.8) !important;
+  box-shadow: none !important;
+  border: none !important;
+  height: auto !important;
+}
+  .navbar a {
+      padding: 25px 25px !important;
+      box-shadow: none !important;
+      color: #fff !important;
+  }
+  .navbar a:hover {
+    color: #C9C9C9 !important;
+  }
+  .navbar .active a {
+    color: #999 !important;
+    background: none !important;
+  }
+  .navbar .navbar-brand {
+    padding: 17px 20px 5px 20px !important;
+    height: auto;
+  }
+  .navbar .navbar-collapse {
+    border: none;
+  }
+  .navbar-toggle {
+    padding: 15px 15px;
+    border: none;
+  }
+  .navbar-toggle:hover {
+    background: none !important;
+  }
+  .navbar-toggle:focus {
+    background: none !important;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #fff !important;
+  }
+
+.sources {
+  margin-bottom: 60px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.module {
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+content {
+  display: block;
+  margin-bottom: 60px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #222;
+  padding: 60px 0;
+}

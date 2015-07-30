@@ -1,0 +1,174 @@
+body {
+	background: #3a2419 no-repeat;
+	background-position: bottom bottom;
+	background-size: cover;
+	font-family: 'Open Sans';
+	-webkit-font-smoothing: antialiased;
+}
+
+.btn {
+	background: #fff;
+	border: none;
+	text-shadow: none;
+	color: #2d221c;
+	border-radius: 50px;
+	border: 1px solid #2d221c;
+	box-shadow: none;
+	&:hover {
+		color: #2d221c;
+		background: #F9F9F9;
+		border: 1px solid #2d221c;
+	}
+}
+
+a {
+	color: #7bc14b;
+	&:hover {
+		color: #8cd354;
+		text-decoration: none;
+	}
+}
+
+.xs-center {
+  	@media (max-width: 768px) { 
+  		text-align: center;
+  	}
+}
+
+strong {
+	font-weight: 700;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+hr {
+	margin-top: 60px;
+	border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.navbar.navbar-default {
+	background: #283e56;
+	border: none;
+	a {
+		color: #fff;
+		&:hover {
+			color: #fff;
+		}
+	}
+	li {
+		a {
+			color: #fff;
+			text-shadow: none;
+			&:hover {
+				color: #fff;
+				background: rgba(255,255,255,0.1);
+			}
+		}
+		&.active {
+			a {
+				color: #fff;
+				background: rgba(255,255,255,0.1);
+			}
+		}
+	}
+}
+
+.headerImage {
+	background: url(../img/mjolkensdag.svg) center center;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+  	@media (max-width: 768px) { 
+  		height: 250px;
+  	}
+}
+
+content {
+	display: block;
+	background: #fff;
+	padding: 60px 0;
+}
+
+.bubble {
+	color: #333;
+  	@media (max-width: 768px) { 
+		margin-bottom: 30px;
+	}
+	a {
+		color: inherit;
+	}
+}
+
+.page-header {
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	margin-bottom: 0;
+	h1 {
+		text-transform: uppercase;
+		font-size: 25px;
+		margin-bottom: 0;
+	}
+	small {
+		color: rgba(255,255,255,0.6);
+	}
+}
+
+.jumbotron {
+	background: none;
+	color: #fff;
+	padding: 0 0 0 0 !important;
+	margin-bottom: 60px;
+	h2 {
+		font-size: 70px;
+		font-weight: normal;
+		margin-bottom: 10px;
+		font-family: 'Cabin Sketch', cursive;
+  		@media (max-width: 768px) { 
+  			font-size: 50px;
+  		}
+	}
+}
+
+.thumbnails {
+	margin-top: 60px;
+	.thumbnail {
+		overflow: hidden;
+		border: none;
+		box-shadow: none;
+		padding: 0;
+		border-radius: 20px;
+		.caption {
+			padding: 5px 15px;
+		}
+	}
+	.desc {
+		background: none;
+		.caption {
+			color: #fff;
+		}
+	}
+	.btn {
+		background: #00a651;
+		border: none;
+		color: #fff;
+	}
+}
+
+.ending {
+	background: #00a651;
+	h2 {
+	margin-top: 0;
+	}
+	hr {
+		margin-top: 30px;
+	}
+}
+
+footer {
+	margin-bottom: 60px;
+}
